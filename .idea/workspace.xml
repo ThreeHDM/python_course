@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541c4241-4f2e-474e-a35c-581b74c2ef03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/importingLibraries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -109,9 +107,10 @@
     </state>
     <state x="151" y="0" key="SettingsEditor/0.0.1366.728/1366.-200.1280.920@0.0.1366.728" timestamp="1585241605093" />
     <state x="461" y="154" key="SettingsEditor/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1584035383726" />
-    <state x="470" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585240936044">
+    <state x="470" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585597714648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="470" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.-165.1280.984@0.0.1366.728" timestamp="1585597714648" />
     <state x="470" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-200.1280.920@0.0.1366.728" timestamp="1585240936044" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1584560630622" />
     <state x="2390" y="240" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1366.728@1920.0.1366.728" timestamp="1584047698415" />
