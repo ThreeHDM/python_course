@@ -4,15 +4,16 @@ import random
 
 # CLASS CREATION
 class Enemy:
-    atkl = 60
-    atkh = 80
+    def __init__(self, atkl, atkh): # This code runs then the class is instantiated
+        self.atkl = atkl
+        self.atkh = atkh
 
     def getAtk(self):  # The self variable is the entire object
         print(self.atkl)  # We use self to access the property
 
 
-enemy1 = Enemy()
-enemy2 = Enemy()
+enemy1 = Enemy(40, 49)
+enemy2 = Enemy(75, 90)
 
 enemy1.getAtk()
 enemy2.getAtk()
