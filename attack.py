@@ -4,19 +4,26 @@ import random
 
 # CLASS CREATION
 class Enemy:
+    hp = 200
+
     def __init__(self, atkl, atkh): # This code runs then the class is instantiated
         self.atkl = atkl
         self.atkh = atkh
 
     def getAtk(self):  # The self variable is the entire object
-        print(self.atkl)  # We use self to access the property
+        print("Attack is", self.atkl)  # We use self to access the property
+
+    def getHp(self):
+        print("Hp is", self.hp)
 
 
 enemy1 = Enemy(40, 49)
-enemy2 = Enemy(75, 90)
-
 enemy1.getAtk()
+enemy1.getHp()
+
+enemy2 = Enemy(75, 90)
 enemy2.getAtk()
+enemy2.getHp()
 ''' 
 playerhp = 260 # player hitpoints
 enemyatkl = 60 # enemy attack low
