@@ -1,7 +1,8 @@
 #   Hacer peticiones HTTP
 import requests
 
-r = requests.get("http://google.com")
+params = {"q": "pizza"}
+r = requests.get("http://bing.com", params=params)
 print("Status", r.status_code)
 
 print(r.url)
